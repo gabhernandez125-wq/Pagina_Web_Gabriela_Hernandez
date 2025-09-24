@@ -1,0 +1,81 @@
+h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 208, 255);
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(100, 100, 214);
+    text-align: center;
+}
+
+h4 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(117, 117, 225);
+    text-align: center;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+
+
+}
+
+li {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+}
+
+/* Imágenes generales */
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+/* Centrado de divs */
+div {
+    text-align: center;
+}
+
+/* Imágenes de tecnologías usadas (Python, JavaScript, AWS, Docker) */
+.python-titulo + img,
+.js-titulo + img,
+.aws-titulo + img,
+.docker-titulo + img {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    vertical-align: middle;
+}
+body {
+    background-image: url('Imagenes/Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,31 @@
+.cuadro-links {
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.cuadro-links a {
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 12px 32px;
+    font-size: 24px;
+    color: #fff;
+    background: linear-gradient(90deg, #b607f6, #2daad0);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s, transform 0.3s;
+}
+
+.cuadro-links a:hover {
+    background: linear-gradient(90deg, #2e9dcc, #b607f6);
+    transform: scale(1.08);
+}
+
+  body {
+    background-color: #7edbfa;
+}  
+

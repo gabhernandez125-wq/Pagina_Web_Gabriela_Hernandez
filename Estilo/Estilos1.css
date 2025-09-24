@@ -1,0 +1,98 @@
+h1 {
+    font-size: 100px;
+    font-family:;
+    background: linear-gradient(90deg, #b607f6, #faf9fa, #fffdfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+ h3{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+   
+
+h4 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 254, 254);
+    text-align: center;
+}
+h5 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 254, 254);
+    text-align: center;
+
+}
+h6 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 254, 254);
+    text-align: center;
+
+}
+
+.proyecto {
+    display: block;
+    align-items: center;
+    gap: 80px; 
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.img-proyecto {
+    width: 400px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 8px 24px rgba(254, 251, 251, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.proyecto2 {
+    display: block;
+    align-items: center;
+    gap: 80px; 
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.img-proyecto2 {
+   width: 600px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 8px 24px lab(99.04% 0.34 0.11 / 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+body {
+    background-image: url('../Imagenes/fondo3.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
